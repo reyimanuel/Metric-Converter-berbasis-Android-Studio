@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.metricconverter.ui.lengthConverter.LengthConverterFragment"
+        android:label="@string/title_length_converter"
+        tools:layout="@layout/fragment_mass_converter" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.metricconverter.ui.massConverter.MassConverterFragment"
+        android:label="@string/title_mass_converter"
+        tools:layout="@layout/fragment_length_converter" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.example.metricconverter.ui.temperatureConverter.TemperatureConverterFragment"
+        android:label="@string/title_temperature_converter"
+        tools:layout="@layout/fragment_temperature_converter" />
+</navigation>

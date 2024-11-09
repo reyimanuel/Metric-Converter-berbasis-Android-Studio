@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MetricConverter</string>
+    <string name="title_length_converter">Length Converter</string>
+    <string name="title_mass_converter">Mass Converter</string>
+    <string name="title_temperature_converter">Temperature Converter</string>
+
+    <string name="hint_enter_value">Enter value</string>
+    <string name="convert_button_text">Convert</string>
+    <string name="result_text">Result:</string>
+</resources>
